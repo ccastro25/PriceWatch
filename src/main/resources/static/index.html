@@ -6,20 +6,29 @@
    <body>
       <div class="wrapper">
          <div class="header">
-            <h1>Compare Prices  </h1>
+            <h1>Compare Prices</h1>
          </div>
          <div class="aside-1 aside"></div>
          <form onsubmit="getDBInfo(); return false" class="main"> 
-         
-         <input id ="searchInput" type = "search" name = "searchBar"  placeholder="Enter product to compare" value="">  <br>
-         
-         <input type = "submit" value = "Cheap Search" class="submitButton">
+            <input id="searchInput" type="search" name="searchBar" placeholder="Enter product to compare" value=""> <br>
+            
+            <div class="store-selectors">
+               <label>
+                  <input type="checkbox" name="store" value="cvs" checked> CVS
+               </label>
+               <label>
+                  <input type="checkbox" name="store" value="riteaid" checked> Rite-Aid
+               </label>
+               <label>
+                  <input type="checkbox" name="store" value="walmart" checked> Walmart
+               </label>
+            </div>
+            
+            <input type="submit" value="Compare Prices" class="submitButton">
          </form>
          <div class="aside-2 aside"></div>
-      <div  id="table" class="footer"></div>
-     
-   </div>
-   <script type="text/javascript" type="module"   src="getQuerryResults.js"></script>
+         <div id="table" class="footer"></div>
+      </div>
+      <script type="text/javascript" type="module" src="getQueryResults.js"></script>
    </body>
-
 </html>
