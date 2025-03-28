@@ -1,6 +1,6 @@
 
-grocery_list2 =[ 'bread',
-                'Egg',
+grocery_list2 =[ 'water',
+                'Eggs',
                'Milk',
               ]
 

@@ -66,3 +66,65 @@ Stacktrace:
 2025-03-26 12:37:41,859 - INFO - Successfully scraped 0 products from second list
 2025-03-26 12:37:41,860 - INFO - Total products scraped: 0
 2025-03-26 12:37:41,862 - ERROR - Error during scraping: name 'all_products' is not defined
+2025-03-26 12:41:49,712 - INFO - Starting CVS price scraping with both lists...
+2025-03-26 12:41:49,712 - INFO - Starting second grocery list scraping
+2025-03-26 12:45:13,905 - INFO - Successfully scraped 0 products from second list
+2025-03-26 12:45:13,905 - INFO - Total products scraped: 0
+2025-03-26 12:45:13,912 - ERROR - Error during scraping: name 'all_products' is not defined
+2025-03-28 11:57:23,132 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 11:57:23,133 - INFO - Starting second grocery list scraping
+2025-03-28 11:57:30,414 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:32,464 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:33,800 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:34,357 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:34,769 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:35,337 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:35,898 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:36,697 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-03-28 11:57:39,157 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:41,417 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:42,162 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:57:42,881 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:58:16,552 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 11:58:16,553 - INFO - Starting second grocery list scraping
+2025-03-28 11:58:24,482 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 11:58:25,490 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:03:21,108 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:03:21,109 - INFO - Starting second grocery list scraping
+2025-03-28 12:03:24,120 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:03:25,293 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:04:32,996 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:04:32,997 - INFO - Starting second grocery list scraping
+2025-03-28 12:04:35,643 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:04:36,862 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:09:07,866 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:09:07,867 - INFO - Starting second grocery list scraping
+2025-03-28 12:09:12,650 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:09:14,758 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:14:04,782 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:14:04,783 - INFO - Starting second grocery list scraping
+2025-03-28 12:14:07,444 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:14:08,486 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:14:09,210 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-03-28 12:14:40,168 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:14:40,169 - INFO - Starting second grocery list scraping
+2025-03-28 12:14:43,558 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:14:44,475 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:36,430 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:21:36,431 - INFO - Starting second grocery list scraping
+2025-03-28 12:21:41,564 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:42,388 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:43,101 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:43,607 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:44,026 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:44,502 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:45,286 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:45,901 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:47,159 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:48,462 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:49,067 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:21:59,275 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:38:18,995 - INFO - Starting CVS price scraping with both lists...
+2025-03-28 12:38:18,996 - INFO - Starting second grocery list scraping
+2025-03-28 12:38:19,477 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
+2025-03-28 12:39:56,199 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe

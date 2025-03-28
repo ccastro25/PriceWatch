@@ -14,20 +14,56 @@ import random
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+import undetected_chromedriver as uc
+from fake_useragent import UserAgent
 
 def setup_driver():
-    options = webdriver.ChromeOptions()
-    options.add_argument('--disable-blink-features=AutomationControlled')
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
-    driver = webdriver.Chrome(options=options)
+    options = uc.ChromeOptions()
+    ua = UserAgent()
+    options.add_argument(f'user-agent={ua.random}')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-notifications')
+    options.add_argument('--disable-popup-blocking')
+    options.add_argument('--disable-extensions')
+    options.add_argument('--disable-infobars')
+    
+    driver = uc.Chrome(options=options)
     driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]})")
+    driver.execute_script("Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']})")
     return driver
 
 def human_like_delay():
-    # Random delay between 3-7 seconds
-    time.sleep(random.uniform(3, 7))
+    # Random delay between 5-10 seconds
+    time.sleep(random.uniform(5, 10))
+
+def simulate_human_behavior(driver):
+    try:
+        # Get the window size
+        window_size = driver.get_window_size()
+        max_x = window_size['width'] - 50  # Leave 100px margin
+        max_y = window_size['height'] - 50  # Leave 100px margin
+        
+        # Random mouse movements within safe bounds
+        action = ActionChains(driver)
+        for _ in range(random.randint(2, 4)):
+            x = random.randint(20, max_x)  # Start from 50px to avoid edges
+            y = random.randint(20, max_y)  # Start from 50px to avoid edges
+            action.move_by_offset(x, y)
+            action.pause(random.uniform(0.5, 1.5))
+        action.perform()
+        
+        # Random scrolling with smaller increments
+        for _ in range(random.randint(2, 4)):
+            scroll_amount = random.randint(50, 150)  # Smaller scroll amounts
+            driver.execute_script(f"window.scrollBy(0, {scroll_amount});")
+            time.sleep(random.uniform(1, 2))
+    except Exception as e:
+        print(f"Warning: Could not simulate human behavior: {str(e)}")
+        # Continue execution even if mouse movement fails
+        pass
 
 def get_product(driver, item):
     try:
@@ -38,21 +74,22 @@ def get_product(driver, item):
         driver.get(f"https://www.cvs.com/search?searchTerm={item}")
         
         # Wait for the page to load (wait for a common element)
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.CLASS_NAME, "css-901oao"))
         )
         
         # Add random delay after page load
         human_like_delay()
         
-        # Scroll the page randomly to simulate human behavior
-        scroll_amount = random.randint(100, 500)
-        driver.execute_script(f"window.scrollBy(0, {scroll_amount});")
-        time.sleep(random.uniform(1, 3))
+        # Simulate human-like behavior
+        #simulate_human_behavior(driver)
         
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        # Add another delay before parsing
+        time.sleep(random.uniform(3, 5))
+        
+        soup = BeautifulSoup(driver.page_source, 'html.parser')                 
         price = soup.find_all('div', class_="css-901oao r-1xaesmv r-ubezar r-majxgm r-wk8lta")
-        title = soup.find_all('div', class_="css-901oao css-cens5h r-b0vftf r-1xaesmv r-ubezar r-majxgm r-29m4ib r-rjixqe r-1mnahxq r-fdjqy7 r-13qz1uu")
+        title = soup.find_all('div', class_="css-901oao css-cens5h r-b0vftf r-1xaesmv r-ubezar r-majxgm r-29m4ib r-rjixqe r-1bymd8e r-fdjqy7 r-13qz1uu")
 
         products = []
         for i, v in enumerate(title):
@@ -80,8 +117,8 @@ def get_cvs_products(items_to_scrape=None):
             print(f"Searching for: {item}")
             products.extend(get_product(driver, item))
             
-            # Add longer random delay between items (30-60 seconds)
-            delay = random.uniform(30, 60)
+            # Add longer random delay between items (90-120 seconds)
+            delay = random.uniform(90, 120)
             print(f"Waiting {delay:.1f} seconds before next search...")
             time.sleep(delay)
     

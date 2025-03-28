@@ -39,7 +39,7 @@ def run_scraper_with_lists():
         
         # Print summary
         print(f"\nScraping completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"Total products scraped: {len(all_products)}")
+        #print(f"Total products scraped: {len(all_products)}")
         #print(f"Products from first list: {len(products_list1)}")
         print(f"Products from second list: {len(products_list2)}")
         
