@@ -128,3 +128,102 @@ Stacktrace:
 2025-03-28 12:38:18,996 - INFO - Starting second grocery list scraping
 2025-03-28 12:38:19,477 - WARNING - Error occurred during getting browser: iter, but was suppressed with fallback.
 2025-03-28 12:39:56,199 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:11:27,000 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:11:27,000 - INFO - Starting second grocery list scraping
+2025-04-01 13:11:27,449 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:11:28,789 - ERROR - Error during scraping: Message: session not created: cannot connect to chrome at 127.0.0.1:63263
+from session not created: This version of ChromeDriver only supports Chrome version 135
+Current browser version is 134.0.6998.178
+Stacktrace:
+	GetHandleVerifier [0x00385463+60691]
+	GetHandleVerifier [0x003854A4+60756]
+	(No symbol) [0x001B0693]
+	(No symbol) [0x001E9E1B]
+	(No symbol) [0x001E8E39]
+	(No symbol) [0x001DF5AF]
+	(No symbol) [0x001DF3E6]
+	(No symbol) [0x00228DE1]
+	(No symbol) [0x002287AA]
+	(No symbol) [0x0021CE56]
+	(No symbol) [0x001EC5F3]
+	(No symbol) [0x001ED444]
+	GetHandleVerifier [0x005CBC03+2446515]
+	GetHandleVerifier [0x005C71D8+2427528]
+	GetHandleVerifier [0x005E2D9E+2541134]
+	GetHandleVerifier [0x0039C415+154821]
+	GetHandleVerifier [0x003A2C3D+181485]
+	GetHandleVerifier [0x0038CC98+91464]
+	GetHandleVerifier [0x0038CE40+91888]
+	GetHandleVerifier [0x003779D0+4736]
+	BaseThreadInitThunk [0x75A3FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773082AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7730827E+238]
+	(No symbol) [0x00000000]
+
+2025-04-01 13:12:53,918 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:12:53,918 - INFO - Starting second grocery list scraping
+2025-04-01 13:12:54,339 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:12:55,532 - ERROR - Error during scraping: Message: session not created: cannot connect to chrome at 127.0.0.1:63301
+from session not created: This version of ChromeDriver only supports Chrome version 135
+Current browser version is 134.0.6998.178
+Stacktrace:
+	GetHandleVerifier [0x00D25463+60691]
+	GetHandleVerifier [0x00D254A4+60756]
+	(No symbol) [0x00B50693]
+	(No symbol) [0x00B89E1B]
+	(No symbol) [0x00B88E39]
+	(No symbol) [0x00B7F5AF]
+	(No symbol) [0x00B7F3E6]
+	(No symbol) [0x00BC8DE1]
+	(No symbol) [0x00BC87AA]
+	(No symbol) [0x00BBCE56]
+	(No symbol) [0x00B8C5F3]
+	(No symbol) [0x00B8D444]
+	GetHandleVerifier [0x00F6BC03+2446515]
+	GetHandleVerifier [0x00F671D8+2427528]
+	GetHandleVerifier [0x00F82D9E+2541134]
+	GetHandleVerifier [0x00D3C415+154821]
+	GetHandleVerifier [0x00D42C3D+181485]
+	GetHandleVerifier [0x00D2CC98+91464]
+	GetHandleVerifier [0x00D2CE40+91888]
+	GetHandleVerifier [0x00D179D0+4736]
+	BaseThreadInitThunk [0x75A3FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773082AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7730827E+238]
+
+2025-04-01 13:15:05,161 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:15:05,161 - INFO - Starting second grocery list scraping
+2025-04-01 13:15:05,615 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:15:07,660 - INFO - package: mysql.connector.plugins
+2025-04-01 13:15:07,660 - INFO - plugin_name: caching_sha2_password
+2025-04-01 13:15:07,660 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-04-01 13:17:59,749 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:17:59,749 - INFO - Starting second grocery list scraping
+2025-04-01 13:18:00,273 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:18:02,747 - INFO - package: mysql.connector.plugins
+2025-04-01 13:18:02,748 - INFO - plugin_name: caching_sha2_password
+2025-04-01 13:18:02,748 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-04-01 13:19:06,252 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:19:06,252 - INFO - Starting second grocery list scraping
+2025-04-01 13:19:07,256 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:19:09,556 - INFO - package: mysql.connector.plugins
+2025-04-01 13:19:09,556 - INFO - plugin_name: caching_sha2_password
+2025-04-01 13:19:09,556 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-04-01 13:25:34,341 - INFO - Successfully scraped 0 products from second list
+2025-04-01 13:25:34,341 - INFO - Total products scraped: 0
+2025-04-01 13:30:18,440 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:30:18,441 - INFO - Starting second grocery list scraping
+2025-04-01 13:30:18,441 - ERROR - Error setting up ChromeDriver: name 'options' is not defined
+2025-04-01 13:30:18,441 - ERROR - Error during scraping: name 'options' is not defined
+2025-04-01 13:30:30,339 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:30:30,340 - INFO - Starting second grocery list scraping
+2025-04-01 13:30:30,341 - ERROR - Error setting up ChromeDriver: name 'options' is not defined
+2025-04-01 13:30:30,341 - ERROR - Error during scraping: name 'options' is not defined
+2025-04-01 13:31:27,013 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:31:27,014 - INFO - Starting second grocery list scraping
+2025-04-01 13:31:27,508 - INFO - patching driver executable C:\Users\caona\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-04-01 13:31:30,215 - INFO - package: mysql.connector.plugins
+2025-04-01 13:31:30,215 - INFO - plugin_name: caching_sha2_password
+2025-04-01 13:31:30,216 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-04-01 13:43:26,214 - INFO - Starting CVS price scraping with both lists...
+2025-04-01 13:43:26,214 - INFO - Starting second grocery list scraping
