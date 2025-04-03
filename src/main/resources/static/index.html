@@ -12,16 +12,10 @@
          <form onsubmit="getDBInfo(); return false" class="main"> 
             <input id="searchInput" type="search" name="searchBar" placeholder="Enter product to compare" value=""> <br>
             
-            <div class="store-selectors">
-               <label>
-                  <input type="checkbox" name="store" value="cvs" checked> CVS
-               </label>
-               <label>
-                  <input type="checkbox" name="store" value="riteaid" checked> Rite-Aid
-               </label>
-               <label>
-                  <input type="checkbox" name="store" value="walmart" checked> Walmart
-               </label>
+            <div class="store-selection">
+                <h3>Select Stores:</h3>
+                <input type="checkbox" name="store" value="cvs" checked> CVS
+                <input type="checkbox" name="store" value="walmart" checked> Walmart
             </div>
             
             <input type="submit" value="Compare Prices" class="submitButton">

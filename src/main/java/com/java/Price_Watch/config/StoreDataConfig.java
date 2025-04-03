@@ -18,24 +18,17 @@ public class StoreDataConfig {
     @PostConstruct
     public void setup() {
         // CVS Sample Data
-        storeProductService.saveCVSProduct("Milk", 3.99);
-        storeProductService.saveCVSProduct("Bread", 2.49);
-        storeProductService.saveCVSProduct("Eggs", 3.29);
-        storeProductService.saveCVSProduct("Butter", 4.99);
-        storeProductService.saveCVSProduct("Cheese", 5.99);
-
-        // RiteAid Sample Data
-        storeProductService.saveRiteAidProduct("Milk", 4.29);
-        storeProductService.saveRiteAidProduct("Bread", 2.99);
-        storeProductService.saveRiteAidProduct("Eggs", 3.49);
-        storeProductService.saveRiteAidProduct("Butter", 5.29);
-        storeProductService.saveRiteAidProduct("Cheese", 6.49);
+        storeProductService.saveCVSProduct("Milk", 4.29);
+        storeProductService.saveCVSProduct("Bread", 2.99);
+        storeProductService.saveCVSProduct("Eggs", 3.49);
+        storeProductService.saveCVSProduct("Butter", 5.29);
+        storeProductService.saveCVSProduct("Cheese", 6.49);
 
         // Walmart Sample Data
-        storeProductService.saveWalmartProduct("Milk", 3.49);
-        storeProductService.saveWalmartProduct("Bread", 2.29);
-        storeProductService.saveWalmartProduct("Eggs", 2.99);
-        storeProductService.saveWalmartProduct("Butter", 4.49);
-        storeProductService.saveWalmartProduct("Cheese", 5.49);
+        storeProductService.saveWalmartProduct("Milk", 3.99);
+        storeProductService.saveWalmartProduct("Bread", 2.49);
+        storeProductService.saveWalmartProduct("Eggs", 3.29);
+        storeProductService.saveWalmartProduct("Butter", 4.99);
+        storeProductService.saveWalmartProduct("Cheese", 5.99);
     }
 } 

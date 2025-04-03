@@ -1,7 +1,6 @@
 
 grocery_list2 =[ 'water',
-                'Eggs',
-               'Milk',
+                
               ]
 
 

@@ -227,3 +227,132 @@ Stacktrace:
 2025-04-01 13:31:30,216 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
 2025-04-01 13:43:26,214 - INFO - Starting CVS price scraping with both lists...
 2025-04-01 13:43:26,214 - INFO - Starting second grocery list scraping
+2025-04-02 11:17:17,628 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:17:17,629 - INFO - Starting second grocery list scraping
+2025-04-02 11:18:36,416 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/15e8cc378499189e77a463a834b8b372
+2025-04-02 11:18:40,502 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002309BD1F610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/15e8cc378499189e77a463a834b8b372
+2025-04-02 11:18:59,899 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:18:59,900 - INFO - Starting second grocery list scraping
+2025-04-02 11:19:26,774 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/522b1723a89f99e0d3b6db833192fd1b
+2025-04-02 11:19:54,145 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:19:54,145 - INFO - Starting second grocery list scraping
+2025-04-02 11:32:45,790 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:32:45,791 - INFO - Starting second grocery list scraping
+2025-04-02 11:32:46,473 - ERROR - Error setting up Firefox driver: Failed to download geckodriver archive: https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win32.tar.gz
+2025-04-02 11:32:46,473 - ERROR - Error during scraping: Failed to download geckodriver archive: https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win32.tar.gz
+2025-04-02 11:34:55,212 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:34:55,212 - INFO - Starting second grocery list scraping
+2025-04-02 11:34:55,789 - ERROR - Error setting up Firefox driver: Failed to download geckodriver archive: https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win32.tar.gz
+2025-04-02 11:34:55,789 - ERROR - Error during scraping: Failed to download geckodriver archive: https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win32.tar.gz
+2025-04-02 11:36:21,993 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:36:21,993 - INFO - Starting second grocery list scraping
+2025-04-02 11:36:22,009 - INFO - ====== WebDriver manager ======
+2025-04-02 11:36:23,254 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:36:23,924 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:36:24,513 - INFO - There is no [win64] geckodriver "v0.36.0" for browser firefox "137.0" in cache
+2025-04-02 11:36:24,513 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:36:25,085 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-02 11:36:25,721 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-02 11:36:27,030 - INFO - Driver downloading response is 200
+2025-04-02 11:36:27,250 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:36:27,882 - INFO - Driver has been saved in cache [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-02 11:38:46,369 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:38:46,369 - INFO - Starting second grocery list scraping
+2025-04-02 11:38:46,371 - INFO - ====== WebDriver manager ======
+2025-04-02 11:38:47,570 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:38:48,145 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:38:48,711 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-02 11:44:50,461 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:44:50,462 - INFO - Starting second grocery list scraping
+2025-04-02 11:44:50,464 - INFO - ====== WebDriver manager ======
+2025-04-02 11:44:51,826 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:44:52,459 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:44:53,025 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-02 11:48:37,109 - INFO - Successfully scraped 0 products from second list
+2025-04-02 11:48:37,110 - INFO - Total products scraped: 0
+2025-04-02 11:49:29,978 - INFO - Starting CVS price scraping with both lists...
+2025-04-02 11:49:29,978 - INFO - Starting second grocery list scraping
+2025-04-02 11:49:29,981 - INFO - ====== WebDriver manager ======
+2025-04-02 11:49:31,290 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:49:31,970 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-02 11:49:32,562 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 11:35:23,463 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 11:35:23,463 - INFO - Starting second grocery list scraping
+2025-04-03 11:35:23,474 - INFO - ====== WebDriver manager ======
+2025-04-03 11:35:24,742 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:35:25,403 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:35:26,011 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:35:26,657 - INFO - Getting latest mozilla release info for v0.36.0
+2025-04-03 11:35:27,308 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+2025-04-03 11:35:28,594 - INFO - Driver downloading response is 200
+2025-04-03 11:35:28,813 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:35:29,445 - INFO - Driver has been saved in cache [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0]
+2025-04-03 11:39:55,246 - INFO - ====== WebDriver manager ======
+2025-04-03 11:39:57,014 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:39:57,678 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:39:58,535 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 11:42:17,641 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 11:42:17,642 - INFO - Starting second grocery list scraping
+2025-04-03 11:42:17,643 - INFO - ====== WebDriver manager ======
+2025-04-03 11:42:19,018 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:42:19,704 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:42:20,305 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 11:48:35,147 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 11:48:35,147 - INFO - Starting second grocery list scraping
+2025-04-03 11:48:35,150 - INFO - ====== WebDriver manager ======
+2025-04-03 11:48:36,468 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:48:37,182 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:48:37,799 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 11:52:05,672 - INFO - ====== WebDriver manager ======
+2025-04-03 11:52:06,849 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:52:07,552 - INFO - Get LATEST geckodriver version for 137.0 firefox
+2025-04-03 11:52:08,574 - INFO - Driver [C:\Users\caona\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-04-03 12:12:12,398 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:12:12,398 - INFO - Starting second grocery list scraping
+2025-04-03 12:13:41,446 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:13:41,447 - INFO - Starting second grocery list scraping
+2025-04-03 12:14:18,590 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:14:18,591 - INFO - Starting second grocery list scraping
+2025-04-03 12:15:33,953 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:15:33,954 - INFO - Starting second grocery list scraping
+2025-04-03 12:21:15,611 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:21:15,612 - INFO - Starting second grocery list scraping
+2025-04-03 12:23:41,008 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:23:41,009 - INFO - Starting second grocery list scraping
+2025-04-03 12:26:29,758 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:26:29,759 - INFO - Starting second grocery list scraping
+2025-04-03 12:45:24,478 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:45:24,479 - INFO - Starting second grocery list scraping
+2025-04-03 12:53:19,634 - INFO - Starting CVS price scraping with both lists...
+2025-04-03 12:53:19,635 - INFO - Starting second grocery list scraping
+2025-04-03 13:03:40,133 - INFO - Successfully scraped 0 products from second list
+2025-04-03 13:03:40,133 - INFO - Total products scraped: 0
+2025-04-03 13:38:24,534 - ERROR - Error in main execution: name 'grocery_list1' is not defined
+2025-04-03 13:39:06,692 - ERROR - Error in main execution: name 'products_list1' is not defined
+2025-04-03 13:44:42,273 - ERROR - Location button not found: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-tl-id='header-zip-code-button']"}
+  (Session info: chrome=134.0.6998.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF73E354C25+3179557]
+	(No symbol) [0x00007FF73DFB88A0]
+	(No symbol) [0x00007FF73DE491CA]
+	(No symbol) [0x00007FF73DE9FA67]
+	(No symbol) [0x00007FF73DE9FC9C]
+	(No symbol) [0x00007FF73DEF3627]
+	(No symbol) [0x00007FF73DEC7C6F]
+	(No symbol) [0x00007FF73DEF02F3]
+	(No symbol) [0x00007FF73DEC7A03]
+	(No symbol) [0x00007FF73DE906D0]
+	(No symbol) [0x00007FF73DE91983]
+	GetHandleVerifier [0x00007FF73E3B67CD+3579853]
+	GetHandleVerifier [0x00007FF73E3CD1D2+3672530]
+	GetHandleVerifier [0x00007FF73E3C2153+3627347]
+	GetHandleVerifier [0x00007FF73E12092A+868650]
+	(No symbol) [0x00007FF73DFC2FFF]
+	(No symbol) [0x00007FF73DFBF4A4]
+	(No symbol) [0x00007FF73DFBF646]
+	(No symbol) [0x00007FF73DFAEAA9]
+	BaseThreadInitThunk [0x00007FFEE5337374+20]
+	RtlUserThreadStart [0x00007FFEE641CC91+33]
+
+2025-04-03 13:44:42,273 - ERROR - Failed to set location
+2025-04-03 13:44:48,616 - INFO - Successfully scraped 0 products from second list
